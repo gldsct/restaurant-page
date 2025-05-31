@@ -94,6 +94,8 @@ nav {
 
 /* Main Section Styles */
 
+/* Main Section Homepage Tab Styles */
+
 main {
     padding: 2rem 0;
     width: 75%;
@@ -137,6 +139,51 @@ main {
     display: flex;
     justify-content: flex-end;
     margin-right: 4rem;
+}
+
+/* Main Section Menu Tab Styles */
+
+.menu-normal {
+    display: block;
+}
+
+.menu-header {
+    font-size: 3rem;
+    line-height: 1.1;
+}
+
+.menu-header-span {
+    color: #ee6333;
+}
+
+.menu-item-container {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 2rem;
+}
+
+.menu-item {
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    border-bottom: 1px solid #ededed;
+}
+
+.menu-item > img {
+    width: 100%;
+    height: auto;
+}
+
+.menu-item > h3 {
+    font-weight: normal;
+}
+
+.menu-item > p {
+    text-align: right;
+    text-decoration: underline;
+    color: #1E51AD;
 }
 
 /* End of Main Section Styles */
