@@ -186,6 +186,30 @@ main {
     color: #1E51AD;
 }
 
+/* Main Section About Tab Styles */
+
+.about-us {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.design-credits {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.about-us > h2 {
+    font-size: 3rem;
+    color: black;
+}
+
+.design-credits > h2 {
+    color: #ee6333;
+    font-size: 3rem;
+}
+
 /* End of Main Section Styles */
 
 /* Footer Section Styles */
